@@ -1,6 +1,6 @@
 
 # code: language=Dockerfile
-FROM python:2
+FROM python:3
 WORKDIR /app
 RUN \
   apt-get -y update && \
